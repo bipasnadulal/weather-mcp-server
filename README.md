@@ -28,5 +28,6 @@ The server uses stdio transport and is meant to be launched by an MCP client (e.
 
 ## Known limitations
 
-- `get_alerts` location matching is a simple substring match on alert title/description — it won't catch alerts tagged only by ward ID or a different location field.
-- No caching or rate-limit handling for either API.
+- `get_alerts` location matching is a simple substring match on alert title/description - it won't catch alerts tagged only by ward ID or a different location field.
+
+- The weather functionality is working. The BIPAD alert integration is implemented but still being debugged for reliable MCP tool responses.
