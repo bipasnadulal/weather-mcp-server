@@ -13,10 +13,10 @@ Fetches disaster alerts from Nepal's [BIPAD Portal](https://bipadportal.gov.np/)
 ## Status
 
 **Working:**
-- `get_weather` — tested and returning correct live data.
+- `get_weather` - tested and returning correct live data.
 
 **Not fully working / untested:**
-- `get_alerts` — runs without crashing and returns correctly formatted output, but hasn't been confirmed to surface real, current alerts. The BIPAD `/alert/` endpoint doesn't sort results by date and its `count` field is unreliable, so relevant alerts may not appear even when the location filter and expiry logic are correct. Needs more testing against live data before it can be trusted.
+- `get_alerts` - runs without crashing and returns correctly formatted output, but hasn't been confirmed to surface real, current alerts. The BIPAD `/alert/` endpoint doesn't sort results by date and its `count` field is unreliable, so relevant alerts may not appear even when the location filter and expiry logic are correct. Needs more testing against live data before it can be trusted.
 
 ## Setup
 
