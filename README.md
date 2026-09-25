@@ -20,7 +20,7 @@ Fetches disaster alerts from Nepal's [BIPAD Portal](https://bipadportal.gov.np/)
 
 ## Setup
 
-1. Install dependencies: `uv sync` (or `pip install -r requirements.txt`)
+1. Install dependencies: `uv sync` 
 2. Set `OPENWEATHER_API_KEY` in a `.env` file
 3. Run: `python server.py` (or `uv run python server.py`)
 
