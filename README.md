@@ -27,8 +27,8 @@ The tool filters alerts based on:
 
 **Working:**
 
-* `get_weather` — tested and returning live weather data correctly.
-* `get_alerts` — tested and returning formatted disaster alert information from the BIPAD API.
+* `get_weather` - tested and returning live weather data correctly.
+* `get_alerts` - tested and returning formatted disaster alert information from the BIPAD API.
 
 The server has been tested with the MCP stdio transport and is designed to be used by an MCP client such as Claude Desktop.
 
